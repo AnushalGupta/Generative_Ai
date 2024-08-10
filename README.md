@@ -7,6 +7,9 @@ This project utilizes the [Stable Diffusion](https://huggingface.co/CompVis/stab
 - **Text-to-Image Generation**: Convert textual descriptions into high-quality images using Stable Diffusion.
 - **Image Enhancement**: Automatically enhances the sharpness of generated images.
 - **GPU Acceleration**: Leverages CUDA-enabled GPUs for faster image generation.
+- **No Restriction** : It supports Unlimited creation of text-to-image and also support nsfw content creation as well.
+- **Customization** : Like other text-to-image model where you cannot change the dimension of the image , Well here you can change the dimension (width and height).
+- **Free To Use** : you dont need any premium subscription or anything like that is completely free , no need to provide any tokken which usually exhaust after few creation . 
 
 ## Prerequisites
 
