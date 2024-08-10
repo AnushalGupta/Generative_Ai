@@ -1,34 +1,27 @@
-# Stable Diffusion Image Generation and Enhancement
+# # Stable Diffusion Image Generator and Enhancer
 
-This project provides a Python script that leverages the Stable Diffusion model to generate high-resolution images from text prompts. The script also enhances the generated images by increasing their sharpness before saving the final output.
-
-## Table of Contents
-
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
+This project utilizes the [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) model to generate high-resolution images based on textual prompts. Additionally, the generated images are enhanced for sharpness using Python's PIL library.
 
 ## Features
 
-- **Image Generation:** Creates high-resolution images (1024x1024) based on text input.
-- **Image Enhancement:** Enhances the generated image by increasing its sharpness.
-- **Save Output:** Saves the enhanced image to a specified file path.
+- **Text-to-Image Generation**: Convert textual descriptions into high-quality images using Stable Diffusion.
+- **Image Enhancement**: Automatically enhances the sharpness of generated images.
+- **GPU Acceleration**: Leverages CUDA-enabled GPUs for faster image generation.
 
 ## Prerequisites
 
-To run this script, you'll need:
+Before running the project, ensure you have the following installed:
 
-- Python 3.7 or later
-- PyTorch (with GPU support for optimal performance)
-- `diffusers` library from Hugging Face
-- `Pillow` library for image manipulation
+- Python 3.8 or higher
+- pip (Python package installer)
+- CUDA (if using GPU for acceleration)
 
-## Installation
+### Required Python Libraries
 
-Follow these steps to set up your environment:
+You can install the necessary Python libraries using the following commands:
 
-1. **Clone the Repository:**
+```bash
+pip install torch torchvision torchaudio
+pip install diffusers
+pip install pillow
 
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
-   cd your-repository-name
